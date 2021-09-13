@@ -1,0 +1,9 @@
+mvn io.quarkus.platform:quarkus-maven-plugin:2.2.2.Final:create -DprojectGroupId=org.acme -DprojectArtifactId=getting-started -DclassName="org.acme.getting.started.GreetingResource" -Dpath="/hello"
+
+https://quarkus.io/guides/getting-started
+
+cd /d C:\Users\cjhsu\OneDrive\桌面\quarkus\getting-started
+mvnw compile quarkus:dev
+
+
+http://localhost:8080/hello
